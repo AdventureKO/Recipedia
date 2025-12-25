@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "web-build"
+
+[context.production.environment]
+# Prefer Node 20.x to match project engines; .nvmrc is also provided
+NODE_VERSION = "20.19.4"
